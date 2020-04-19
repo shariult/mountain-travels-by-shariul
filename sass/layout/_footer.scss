@@ -1,0 +1,53 @@
+.footer {
+  color: var(--color-grey-l1);
+  font-size: 1.4rem;
+  background: var(--color-secondary);
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  @include responsive(bp-800) {
+    flex-flow: column nowrap;
+    & > *:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+  &__copy {
+    text-transform: uppercase;
+  }
+  &__text {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  &__icon {
+    fill: var(--color-grey-l1);
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    &:hover {
+      fill: var(--color-grey-l4);
+    }
+  }
+  &__link {
+    &:link,
+    &:active,
+    & {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: var(--color-grey-l2);
+      display: inline-block;
+      transition: all 0.3s ease-in-out;
+    }
+    &:hover,
+    &:focus {
+      color: var(--color-grey-l1);
+    }
+  }
+  &__social {
+    & > *:not(:last-child) {
+      margin-right: 1rem;
+    }
+  }
+}
