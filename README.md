@@ -1,3 +1,5 @@
+# Mountain Travels By Shariul
+
 ## About
 
 Mountain travels is a course work for Advanced developer bootcamp.<br/>
@@ -7,17 +9,27 @@ Each line of code is written by me in my own way. This project is nothing like w
 ## Installation
 
 1. Please Install **Node** first, **npm** should automatically be installed. They are required.
-2. Some **npm** packages are required for this project, install them by running following command in the terminal, <br/>
-   `npm i -D live-server node-sass autoprefixer concat postcss-cli npm-run-all`<br/>
-   or Install globally (Preferred),<br/>
-   `npm i -g live-server node-sass autoprefixer concat postcss-cli npm-run-all`<br/>
-   or (since package.json is present),<br/>
-   `npm i`
+2. Some **npm** packages are required for this project, install them by running following command in the terminal,
+```
+npm i -D live-server node-sass autoprefixer concat postcss-cli npm-run-all
+```
+or Install globally (Preferred),<br/>
+```
+npm i -g live-server node-sass autoprefixer concat postcss-cli npm-run-all
+```
+or (since package.json is present),<br/>
+```
+npm i
+```
 
-## For Development run:
+### For Development run:
 
-`npm start`
+```
+npm start
+```
 
-## For Production run:
+### For Production run:
 
-`npm run build`
+```
+npm run build
+```
